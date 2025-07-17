@@ -13,7 +13,9 @@
       "-D ARDUINO_RUNNING_CORE=1",
       "-D ARDUINO_EVENT_RUNNING_CORE=1",
       "-mfix-esp32-psram-cache-issue",
-      "-DBOARD_HAS_PSRAM"
+      "-DBOARD_HAS_PSRAM",
+      "-DI2C_SDA=15",
+      "-DI2C_SCL=16"
     ],
     "f_cpu": "240000000L",
     "f_flash": "80000000L",
