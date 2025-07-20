@@ -10,7 +10,9 @@
       "-DBOARD_HAS_PSRAM",
       "-DARDUINO_USB_MODE=1",
       "-DARDUINO_RUNNING_CORE=1",
-      "-DARDUINO_EVENT_RUNNING_CORE=1"
+      "-DARDUINO_EVENT_RUNNING_CORE=1",
+      "-DI2C_SDA=19",
+      "-DI2C_SCL=20"
     ],
     "f_cpu": "240000000L",
     "f_flash": "80000000L",
